@@ -1,0 +1,16 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="u`CMp%x0|OYc=I%O=2-R">mySprite</variable><variable type="KIND_SpriteKind" id="v1B#x/TCb~T9+}ujrJvq">Player</variable><variable type="KIND_SpriteKind" id="FR.[3+81oZp_,h9|}w0?">Projectile</variable><variable type="KIND_SpriteKind" id="RFg:M!pD;OGWc99=~0Io">Food</variable><variable type="KIND_SpriteKind" id="G+$2J|/[Sse*B/=19(*h">Enemy</variable></variables><block type="pxt-on-start" id="/9Igg$.Q4%S#nl^$y~5Y" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="OJ%%BCL$Th$%OF*xOyA_"><field name="VAR" id="u`CMp%x0|OYc=I%O=2-R">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="8ipu?192zoD-un*P#^2$"><value name="img"><shadow type="screen_image_picker" id="4fnY.y}OOkf%pD1z#hwG"><field name="img">img`
+. . 4 4 4 . . . . 4 4 4 . . . . 
+. 4 5 5 5 e . . e 5 5 5 4 . . . 
+4 5 5 5 5 5 e e 5 5 5 5 5 4 . . 
+4 5 5 4 4 5 5 5 5 4 4 5 5 4 . . 
+e 5 4 4 5 5 5 5 5 5 4 4 5 e . . 
+. e e 5 5 5 5 5 5 5 5 e e . . . 
+. . e 5 f 5 5 5 5 f 5 e . . . . 
+. . f 5 5 5 4 4 5 5 5 f . . f f 
+. . f 4 5 5 f f 5 5 6 f . f 5 f 
+. . . f 6 6 6 6 6 6 4 4 f 5 5 f 
+. . . f 4 5 5 5 5 5 5 4 4 5 f . 
+. . . f 5 5 5 5 5 4 5 5 f f . . 
+. . . f 5 f f f 5 f f 5 f . . . 
+. . . f f . . f f . . f f . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"4fnY.y}OOkf%pD1z#hwG"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id=".`9ivh.=0*]-R9LYU#7="><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetsetstayinscreen" id=",3UdVf1,{VVlGaOFSw/T"><value name="sprite"><block type="variables_get" id="d_$pSS_xB)9[RBV3IrmM"><field name="VAR" id="u`CMp%x0|OYc=I%O=2-R">mySprite</field></block></value><value name="on"><shadow type="toggleOnOff" id="E-D2tTAv7ceS-b9~h49@"><field name="on">true</field></shadow></value></block></next></block></statement></block><block type="gameupdate" id="b?u}Am@dv{4+L,~88IMN" x="110" y="290"><statement name="HANDLER"><block type="game_control_sprite" id="e33px+n(e069B5=7$%Yn"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="G#b.+jS:GUs[/U{bLFdG"><field name="VAR" id="u`CMp%x0|OYc=I%O=2-R">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="F0S-OQ+F}Ge:v(N$2}`c"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="!CQ{0AuZ3~zn5D;^B@xs"><field name="speed">100</field></shadow></value></block></statement></block></xml>
